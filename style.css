@@ -84,8 +84,7 @@ body {
   margin-top: 40px;
 }
 .card,
-.price-card,
-.blog-card {
+.price-card {
   background: #1e293b;
   padding: 30px;
   border-radius: 12px;
