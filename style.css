@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: #0f172a;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* INDEX CSS  HOME PAGE */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: #0f172a;
+  position: sticky;
+  top: 0;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.logo {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+.hero,
+.page-hero {
+  padding: 120px 8%;
+  text-align: center;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.primary-btn {
+  background: #6366f1;
+  padding: 12px 25px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+}
+.secondary-btn {
+  border: 1px solid #6366f1;
+  padding: 12px 25px;
+  border-radius: 8px;
+  color: #6366f1;
+  text-decoration: none;
+}
+.features,
+.pricing,
+.cta {
+  padding: 80px 8%;
+  text-align: center;
+}
+.grid-3 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.card,
+.price-card,
+.blog-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  width: 280px;
+}
+.price {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+.popular {
+  border: 2px solid #6366f1;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #020617;
+  color: #94a3b8;
+}
